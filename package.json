@@ -2,7 +2,7 @@
   "name": "ipromise",
   "description": "An easy-to-use Promise/A+ implementation",
   "version": "1.0.0",
-  "main": "ipromise.js",
+  "main": "index.js",
   "author": {
     "name": "exolution",
     "email": "exolution@163.com"
