@@ -228,6 +228,9 @@ function all() {
                 data[k] = pro;
                 count--;
             }
+            if(count==0){
+                p.resolve(data);
+            }
         }
     }
     return p;

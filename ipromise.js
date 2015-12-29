@@ -239,6 +239,9 @@
                 count--;
             }
         }
+        if(count==0){
+            p.resolve(data);
+        }
         return p;
     }
     function race() {
