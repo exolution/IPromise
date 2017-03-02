@@ -251,6 +251,13 @@ function race() {
     }
     return p;
 }
+Promise.resolve=function(data){
+    var p=new Promise()
+    process.nextTick(function(){
+        p.resolve(data)
+    })
+    return p
+}
 
 
 module.exports = Promise;
